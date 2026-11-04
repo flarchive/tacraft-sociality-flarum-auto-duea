@@ -1,0 +1,36 @@
+{
+    "name": "tacraft-sociality/flarum-auto-duea",
+    "description": "Delete accounts whose email address was never confirmed, with an optional automatic sweep.",
+    "keywords": [
+        "users",
+        "spam",
+        "cleanup",
+        "moderation"
+    ],
+    "type": "flarum-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tacraft Sociality"
+        }
+    ],
+    "require": {
+        "flarum/core": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "TacraftSociality\\AutoDuea\\": "src/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Auto Duea",
+            "category": "feature",
+            "icon": {
+                "name": "fas fa-user-slash",
+                "backgroundColor": "#fdecea",
+                "color": "#d93025"
+            }
+        }
+    }
+}

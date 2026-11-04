@@ -1,0 +1,16 @@
+{
+  "name": "@tacraft-sociality/flarum-auto-duea",
+  "private": true,
+  "scripts": {
+    "dev": "webpack --mode development --watch",
+    "build": "webpack --mode production",
+    "check-typings": "tsc --noEmit --emitDeclarationOnly false"
+  },
+  "devDependencies": {
+    "flarum-tsconfig": "^2.0.0",
+    "flarum-webpack-config": "^3.1.0",
+    "typescript": "^5.9.3",
+    "webpack": "^5.104.1",
+    "webpack-cli": "^7.2.3"
+  }
+}
